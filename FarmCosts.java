@@ -30,7 +30,7 @@ public class FeedPrice
         priceChicken=0;
     }
 
-    public double setAlpacaPrice(double pA)
+    public void setAlpacaPrice(double pA)
     {
         if (pA > 0)
             priceAlpaca = pA;
@@ -42,4 +42,6 @@ public class FeedPrice
     {
         return priceAlpaca;
     }
+
+    public 
 }
